@@ -1,4 +1,25 @@
 .right-container {
     float: left;
     display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+.upper-text {
+    color: #464746;
+    font-family: 'Rubik';
+    height: 80px;
+}
+
+.upper-text h1 {
+    
+}
+
+.upper-text p {
+    display: inline;
+}
+
+#blue-bold-text {
+    font-weight: bold;
+    color: #1073ab;
 }
