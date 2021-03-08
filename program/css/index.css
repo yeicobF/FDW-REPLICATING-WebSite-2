@@ -1,7 +1,7 @@
 body {
     background-color: #f1f2f1;
     margin: 0px;
-    height: 92vh;
+    /* height: 92vh; */
 }
 
 .parent-container {
@@ -10,6 +10,7 @@ body {
     min-width: 500px;
     background-color: #f1f2f1;
     padding: 12px;
+    padding-top: 4vh;
     height: 100%;
 }
 
@@ -18,13 +19,44 @@ body {
     border-style: solid;
     border-width: thin;
     background-color: #ffffff;
-    min-height: 600px;
+    min-height: 555px;
+    height: 90vh;
     /* min-width: 200px; */
     display: grid;
+
+
+    /* border: #d6d8dc;
+    border-style: solid;
+    border-width: thin;
+    background-color: #ffffff;
+    min-height: 628px;
+    /* min-width: 200px; */
+    /* display: grid; */
+
+    /* border: #d6d8dc;
+    border-style: solid;
+    border-width: thin;
+    background-color: #ffffff;
+    min-height: 585px;
+    height: 90%; */
+    /* min-width: 200px; */
+    /* display: grid; */
 }
 
 .left-menu {
     float: left;
+    min-width: 150px;
+    min-height: inherit;
+    width: 14%;
+    border-right: 2px solid #e6e5e5;
+    background-color: #f8f8f8;
+    /* height: 50px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: grid;
+
+
+    /* float: left;
 
     min-width: 150px;
     min-height: inherit;
@@ -36,9 +68,14 @@ body {
     outline-style: solid;
     outline-width: thin; */
 
-    border-right: 2px solid #e6e5e5;
+    /* border-right: 2px solid #e6e5e5;
     background-color: #f8f8f8;
 
+    height: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    display: grid; */
 }
 
 .left-menu__items {
@@ -46,27 +83,35 @@ body {
     color: #9b9b9c;
     padding-top: 5px;
     padding-bottom: 5px;
+
+    float: left;
 }
 
 /* DIV PARA CENTRAR EL BORDE */
 .centered-border {
-    position: relative;
+    /* position: relative; */
     width: 80%;
-    height: inherit;
-    width: inherit;
+    /* height: 0px; */
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 /* PARA PONER LA LÍNEA DEL BORDE SIN COMPLETAR EN LOS NECESARIOS. */
 #uncomplete-border--2px {
     border-bottom: 2px solid #e6e5e5;
+    height: 2px;
+    /* margin: auto; */
     /* width: 80%; */
 }
 #uncomplete-border--1px {
     border-bottom: 1px solid #e6e5e5;
+    height: 1px;
+    /* margin: auto; */
     /* width: 80%; */
 }
 
-.left-menu__items p {
+.left-menu p {
     font-family: 'Rubik';
     font-size: medium;
     font-weight: 400;
@@ -84,16 +129,34 @@ body {
 }
 
 .left-menu__items--selected {
-    border-right: 2px solid #ffffff;
-    border-bottom: 2px solid #e6e5e5;
+    /* border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #e6e5e5; */
 
     /* PARA QUE SE SOBREPONGA EL BORDE BLANCO Y OCULTE EL GRIS. */
-    margin-right: -2px;
+    /* margin-right: -2px; */
     /* POR EL PADDING-TOP: 5px */
+    /* margin-top: -5px;
+    margin-bottom: -5px;
+    color: black;
+    background-color: #ffffff; */
+
+    /* width: inherit; */
+    /* height: inherit;
+    min-width: 150px; */
+    /* width: 14%; */
+
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #e6e5e5;
+    margin-right: -2px;
     margin-top: -5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* margin-bottom: 27px; */
     color: black;
     background-color: #ffffff;
-
-    width: inherit;
+    /* width: inherit; */
     height: inherit;
+    min-width: 150px;
+    /* width: 14%; */
+
 }
