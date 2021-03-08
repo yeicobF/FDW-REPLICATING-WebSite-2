@@ -29,7 +29,7 @@ body {
     min-width: 150px;
     min-height: inherit;
 
-    width: 13%;
+    width: 14%;
 
     /* https://stackoverflow.com/questions/38074641/is-there-a-way-to-add-overlapping-borders-to-all-div-with-css */
     /* outline: #d6d8dc;
@@ -37,14 +37,50 @@ body {
     outline-width: thin; */
 
     border-right: 2px solid #e6e5e5;
-    color: #9b9b9c;
     background-color: #f8f8f8;
 
 }
 
 .left-menu__items {
+    height: 50px;
+    color: #9b9b9c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
-    height: 65px;
+/* DIV PARA CENTRAR EL BORDE */
+.centered-border {
+    position: relative;
+    width: 80%;
+    height: inherit;
+    width: inherit;
+}
+
+/* PARA PONER LA LÍNEA DEL BORDE SIN COMPLETAR EN LOS NECESARIOS. */
+#uncomplete-border--2px {
+    border-bottom: 2px solid #e6e5e5;
+    /* width: 80%; */
+}
+#uncomplete-border--1px {
+    border-bottom: 1px solid #e6e5e5;
+    /* width: 80%; */
+}
+
+.left-menu__items p {
+    font-family: 'Rubik';
+    font-size: medium;
+    font-weight: 400;
+
+    display: flex;
+}
+
+.left-menu__items--image {
+    float: left;
+    width: 20%;
+    min-width: 50px;
+    height: inherit;
+
+
 }
 
 .left-menu__items--selected {
@@ -53,7 +89,8 @@ body {
 
     /* PARA QUE SE SOBREPONGA EL BORDE BLANCO Y OCULTE EL GRIS. */
     margin-right: -2px;
-
+    /* POR EL PADDING-TOP: 5px */
+    margin-top: -5px;
     color: black;
     background-color: #ffffff;
 
