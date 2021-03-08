@@ -1,3 +1,6 @@
+@import url("left-menu.css");
+@import url("right-side.css");
+
 body {
     background-color: #f1f2f1;
     margin: 0px;
@@ -22,7 +25,7 @@ body {
     min-height: 555px;
     height: 90vh;
     /* min-width: 200px; */
-    display: grid;
+    display: flex;
 
 
     /* border: #d6d8dc;
@@ -43,127 +46,3 @@ body {
     /* display: grid; */
 }
 
-.left-menu {
-    float: left;
-    min-width: 150px;
-    min-height: inherit;
-    width: 14%;
-    border-right: 2px solid #e6e5e5;
-    background-color: #f8f8f8;
-    /* height: 50px; */
-    padding-top: 0px;
-    padding-bottom: 0px;
-    display: grid;
-
-
-    /* float: left;
-
-    min-width: 150px;
-    min-height: inherit;
-
-    width: 14%;
-
-    /* https://stackoverflow.com/questions/38074641/is-there-a-way-to-add-overlapping-borders-to-all-div-with-css */
-    /* outline: #d6d8dc;
-    outline-style: solid;
-    outline-width: thin; */
-
-    /* border-right: 2px solid #e6e5e5;
-    background-color: #f8f8f8;
-
-    height: 50px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-
-    display: grid; */
-}
-
-.left-menu__items {
-    height: 50px;
-    color: #9b9b9c;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-    float: left;
-}
-
-/* DIV PARA CENTRAR EL BORDE */
-.centered-border {
-    /* position: relative; */
-    width: 80%;
-    /* height: 0px; */
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-/* PARA PONER LA LÍNEA DEL BORDE SIN COMPLETAR EN LOS NECESARIOS. */
-#uncomplete-border--2px {
-    border-bottom: 2px solid #e6e5e5;
-    height: 2px;
-    /* margin: auto; */
-    /* width: 80%; */
-}
-#uncomplete-border--1px {
-    border-bottom: 1px solid #e6e5e5;
-    height: 1px;
-    /* margin: auto; */
-    /* width: 80%; */
-}
-
-.left-menu p {
-    font-family: 'Rubik';
-    font-size: medium;
-    font-weight: 400;
-
-    display: flex;
-}
-
-.left-menu__items--image {
-    margin-right: 0px;
-    float: left;
-    /* width: 20%; */
-    min-width: px;
-    height: inherit;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 5px;
-    
-    /* float: left;
-    width: 20%;
-    min-width: 50px;
-    height: inherit; */
-}
-
-.left-menu__items--selected {
-    /* border-right: 2px solid #ffffff;
-    border-bottom: 2px solid #e6e5e5; */
-
-    /* PARA QUE SE SOBREPONGA EL BORDE BLANCO Y OCULTE EL GRIS. */
-    /* margin-right: -2px; */
-    /* POR EL PADDING-TOP: 5px */
-    /* margin-top: -5px;
-    margin-bottom: -5px;
-    color: black;
-    background-color: #ffffff; */
-
-    /* width: inherit; */
-    /* height: inherit;
-    min-width: 150px; */
-    /* width: 14%; */
-
-    border-right: 2px solid #ffffff;
-    border-bottom: 2px solid #e6e5e5;
-    margin-right: -2px;
-    margin-top: -5px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    /* margin-bottom: 27px; */
-    color: black;
-    background-color: #ffffff;
-    /* width: inherit; */
-    height: inherit;
-    min-width: 150px;
-    /* width: 14%; */
-
-}
