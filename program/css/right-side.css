@@ -9,17 +9,26 @@
     color: #464746;
     font-family: 'Rubik';
     height: 80px;
+    padding-left: 25px;
+    margin-top: 12px;
 }
 
 .upper-text h1 {
-    
+    margin-bottom: 10px;
+    font-size: larger;
 }
 
 .upper-text p {
     display: inline;
 }
 
+/* PARA QUE NO SE SUBRAYE EL HIPERVÍNCULO */
+.upper-text a {
+    text-decoration: none;
+}
+
 #blue-bold-text {
     font-weight: bold;
     color: #1073ab;
 }
+

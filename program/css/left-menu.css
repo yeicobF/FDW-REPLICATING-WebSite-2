@@ -42,6 +42,11 @@
     float: left;
 }
 
+.left-menu__items:hover {
+    /* AL PASAR EL CURSOR POR ENCIMA PONE UNA MANITA. */
+    cursor: pointer;
+}
+
 /* DIV PARA CENTRAR EL BORDE */
 .centered-border {
     /* position: relative; */
