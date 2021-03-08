@@ -1,0 +1,62 @@
+body {
+    background-color: #f1f2f1;
+    margin: 0px;
+    height: 92vh;
+}
+
+.parent-container {
+    display: grid;
+    margin: auto;
+    min-width: 500px;
+    background-color: #f1f2f1;
+    padding: 12px;
+    height: 100%;
+}
+
+.content-container {
+    border: #d6d8dc;
+    border-style: solid;
+    border-width: thin;
+    background-color: #ffffff;
+    min-height: 600px;
+    /* min-width: 200px; */
+    display: grid;
+}
+
+.left-menu {
+    float: left;
+
+    min-width: 150px;
+    min-height: inherit;
+
+    width: 13%;
+
+    /* https://stackoverflow.com/questions/38074641/is-there-a-way-to-add-overlapping-borders-to-all-div-with-css */
+    /* outline: #d6d8dc;
+    outline-style: solid;
+    outline-width: thin; */
+
+    border-right: 2px solid #e6e5e5;
+    color: #9b9b9c;
+    background-color: #f8f8f8;
+
+}
+
+.left-menu__items {
+
+    height: 65px;
+}
+
+.left-menu__items--selected {
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #e6e5e5;
+
+    /* PARA QUE SE SOBREPONGA EL BORDE BLANCO Y OCULTE EL GRIS. */
+    margin-right: -2px;
+
+    color: black;
+    background-color: #ffffff;
+
+    width: inherit;
+    height: inherit;
+}
