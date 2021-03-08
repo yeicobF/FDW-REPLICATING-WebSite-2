@@ -120,12 +120,19 @@ body {
 }
 
 .left-menu__items--image {
+    margin-right: 0px;
     float: left;
+    /* width: 20%; */
+    min-width: px;
+    height: inherit;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    
+    /* float: left;
     width: 20%;
     min-width: 50px;
-    height: inherit;
-
-
+    height: inherit; */
 }
 
 .left-menu__items--selected {
@@ -149,8 +156,8 @@ body {
     border-bottom: 2px solid #e6e5e5;
     margin-right: -2px;
     margin-top: -5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     /* margin-bottom: 27px; */
     color: black;
     background-color: #ffffff;
