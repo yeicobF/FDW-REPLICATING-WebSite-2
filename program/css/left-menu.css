@@ -137,6 +137,11 @@
         padding-top: 45px;
         margin-bottom: 50px;
     }
+    .right-centered-border {
+        /* Lo siento por utilizarlo, profe. No encontré otra forma de modificar
+            el margen. */
+        margin-bottom: 36px !important;
+    }
 }
 
 /* REACOMODAR LOS PRIMEROS DOS ELEMENTOS
@@ -147,3 +152,6 @@
         margin-bottom: 10px;
     }
 }
+
+/* @media only screen and (min-width: 598px) and (max-width: 777px) {
+} */
