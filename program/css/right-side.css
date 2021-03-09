@@ -59,7 +59,8 @@
 
 /* INCLUYENDO IMAGEN Y PIE DE FOTO. */
 .right-image-and-text {
-    width: 150px;
+    min-width: 150px;
+    max-width: 160px;
     /* height: 366px; */
     /* border: 1px solid #e6e5e5; */
     
@@ -87,7 +88,13 @@
 }
 
 .caption {
+    max-width: inherit;
     border: 1px solid #e6e5e5;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 
     background-color: #f8f8f8;
     color: #484948;
@@ -95,14 +102,52 @@
     font-size: small;
     height: 4.5vh;
     min-height: 29px;
+
+    overflow: hidden;
+    /* text-overflow: clip; */
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .caption p {
-    padding-left: 10px;
-    padding-right: 10px;
+    font-family: 'Rubik';
+    font-size: small;
+    font-weight: 500;
+    /* PARA QUE NO SE PONGA EN MÁS DE UNA LÍNEAA A PESAR DE UTILIZAR FLEX */
+    flex-shrink: 0;
+    /* padding-left: 10px;
+    padding-right: 10px; */
 
-    margin-top: 0px;
-    margin-bottom: 0px;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+}
+
+/* CONTENEDOR PARA EL TEXTO DEL PIE DE FOTO. */
+.caption__text {
+    width: 80%;
+    height: inherit;
+    float: left;
+    margin-left: auto;
+}
+
+/* BOTÓN DE 3 PUNTOS. */
+.dots {
+    color: #1073ab;
+    float: left;
+    /* align-items: flex-end; */
+    /* PARA MANDARLO HASTA LA DERECHA */
+    margin-left: auto;
+    font-size: large;
+    font-family: 'Overpass';
+    border: transparent;
+    background: #f8f8f8;
+    cursor: pointer;
+
+    position: sticky;
+    right: 0px;
 }
 
 #blue-bold-text {

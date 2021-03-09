@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\6SEM - FDM [PROYECTOS]"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\PROGRAMACIÓN"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"utility": "cpp",
+			"vector": "cpp"
+		}
+	}
+}
