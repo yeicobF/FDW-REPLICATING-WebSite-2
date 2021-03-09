@@ -27,6 +27,14 @@
     text-decoration: none;
 }
 
+.right-centered-border {
+    margin: auto;
+    width: 96%;
+    margin-top: 10px;
+    height: 1px;
+    border-bottom: 1px solid #e6e5e5;
+}
+
 #blue-bold-text {
     font-weight: bold;
     color: #1073ab;
