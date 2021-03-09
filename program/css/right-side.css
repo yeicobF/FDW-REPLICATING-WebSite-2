@@ -92,7 +92,6 @@
     border: 1px solid #e6e5e5;
 
     padding-left: 10px;
-    padding-right: 10px;
     margin-top: auto;
     margin-bottom: auto;
 
@@ -109,7 +108,7 @@
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .caption p {
@@ -118,6 +117,9 @@
     font-weight: 500;
     /* PARA QUE NO SE PONGA EN MÁS DE UNA LÍNEAA A PESAR DE UTILIZAR FLEX */
     flex-shrink: 0;
+    /* ASÍ QUEDARÁ CENTRADO, YA QUE LLEGARÁ HASTA EL BOTÓN. */
+    margin-left: auto;
+
     /* padding-left: 10px;
     padding-right: 10px; */
 
@@ -131,6 +133,8 @@
     height: inherit;
     float: left;
     margin-left: auto;
+
+    margin-right: 10px;
 }
 
 /* BOTÓN DE 3 PUNTOS. */
@@ -146,8 +150,12 @@
     background: #f8f8f8;
     cursor: pointer;
 
+    /* PARA QUE NO SE MUEVAN LOS PUNTOS A PESAR DE QUE SE SUPERE LA POSICIÓN
+        INICIAL DEL DIV */
     position: sticky;
     right: 0px;
+    padding-right: 10px;
+    height: 100%;
 }
 
 #blue-bold-text {
@@ -155,3 +163,16 @@
     color: #1073ab;
 }
 
+/* AJUSTAR EL CONTENIDO A LA PANTALLA SI ES MENOR A 800px. */
+@media only screen and (max-width: 800px) {
+    .right-images-container {
+        justify-content: space-evenly;
+    }
+}
+
+/* DESAJUSTAR EL COTENIDO DE LA PANTALLA SI MIDE MÁS DE 801px. */
+@media only screen and (min-width: 801px) {
+    .right-images-container {
+        justify-content: unset;
+    }
+}
