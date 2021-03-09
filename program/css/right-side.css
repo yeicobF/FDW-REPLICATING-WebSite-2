@@ -1,16 +1,20 @@
 .right-container {
     float: left;
     display: grid;
+    grid-auto-rows: min-content;
+
     width: 100%;
     height: 100%;
+
+    padding-left: 25px;
 }
 
 .upper-text {
     color: #464746;
     font-family: 'Rubik';
     height: 80px;
-    padding-left: 25px;
     margin-top: 12px;
+    margin-bottom: 14px;
 }
 
 .upper-text h1 {
@@ -28,11 +32,17 @@
 }
 
 .right-centered-border {
-    margin: auto;
-    width: 96%;
-    margin-top: 10px;
-    height: 1px;
-    border-bottom: 1px solid #e6e5e5;
+    /* YA HAY UN PADDING A LA IZQUIERDA QUE LO CENTRA. */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 100%; */
+    /* POR EL PADDING DE LA IZQUIERDA. */
+    margin-right: 25px;
+    /* margin-top: -23vh; */
+    height: 0px;
+    border-top: 1px solid #e6e5e5;
+
+    margin-bottom: 22px;
 }
 
 #blue-bold-text {
