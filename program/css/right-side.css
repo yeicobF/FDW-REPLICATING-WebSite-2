@@ -7,6 +7,7 @@
     height: 100%;
 
     padding-left: 25px;
+    padding-right: 25px;
 }
 
 .upper-text {
@@ -14,7 +15,7 @@
     font-family: 'Rubik';
     height: 80px;
     margin-top: 12px;
-    margin-bottom: 14px;
+    margin-bottom: 20px;
 }
 
 .upper-text h1 {
@@ -37,12 +38,36 @@
     margin-right: auto; */
     /* width: 100%; */
     /* POR EL PADDING DE LA IZQUIERDA. */
-    margin-right: 25px;
+    /* margin-right: 25px; */
     /* margin-top: -23vh; */
     height: 0px;
     border-top: 1px solid #e6e5e5;
 
-    margin-bottom: 22px;
+    margin-bottom: 16px;
+}
+
+/* INCLUYENDO IMAGEN Y PIE DE FOTO. */
+.right-image-and-text {
+    width: 50px;;
+    height: 70px;;
+    border: 1px solid #e6e5e5;
+
+    margin-right: 30px;
+    /* PARA PODER UTILIZAR EL STACK INDEX */
+    position: relative;
+}
+
+#img {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+#caption {
+    background-color: #f8f8f8;
+    color: #484948;
+    font-family: 'Didact Gothic';
+    font-size: small;
 }
 
 #blue-bold-text {
