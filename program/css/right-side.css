@@ -56,10 +56,10 @@
 
 /* INCLUYENDO IMAGEN Y PIE DE FOTO. */
 .right-image-and-text {
-    width: 50px;
-    height: 70px;
+    width: 150px;
+    height: 366px;
     /* border: 1px solid #e6e5e5; */
-
+    
     margin-right: 30px;
     /* PARA PODER UTILIZAR EL STACK INDEX */
     position: relative;
@@ -67,10 +67,13 @@
 }
 
 #img {
-    width: 50px;
-    height: 50px;
-    padding: 1px;
+    /* ANCHO Y ALTO APLICAN LOS MISMOS */
+
+    /* width: 150px;
+    height: 190px; */
+    /* padding: 1px; */
     background-color: black;
+    /* border: inherit; */
     /* border: inherit; */
     /* margin-top: -1px;
     margin-left: -1px; */
