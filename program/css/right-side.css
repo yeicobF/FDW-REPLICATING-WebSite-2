@@ -6,8 +6,8 @@
     width: 100%;
     height: 100%;
 
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .upper-text {
@@ -47,32 +47,39 @@
 }
 
 .right-images-container {
-    width: max-content;
-    height: max-content;
+    width: 100%;
+    /* width: max-content; */
+    /* height: 100%; */
 
     display: flex;
     flex-wrap: wrap;
+
+    /* padding-bottom: 30px; */
 }
 
 /* INCLUYENDO IMAGEN Y PIE DE FOTO. */
 .right-image-and-text {
     width: 150px;
-    height: 366px;
+    /* height: 366px; */
     /* border: 1px solid #e6e5e5; */
     
     margin-right: 30px;
     /* PARA PODER UTILIZAR EL STACK INDEX */
     position: relative;
     display: grid;
+    grid-auto-rows: min-content;
+    margin-bottom: 20px;
 }
 
 #img {
     /* ANCHO Y ALTO APLICAN LOS MISMOS */
-
+    /* height: 176px; */
+    height: 22vh;
+    min-height: 150px;
+    background-color: black;
     /* width: 150px;
     height: 190px; */
     /* padding: 1px; */
-    background-color: black;
     /* border: inherit; */
     /* border: inherit; */
     /* margin-top: -1px;
@@ -86,7 +93,8 @@
     color: #484948;
     font-family: 'Didact Gothic';
     font-size: small;
-    height: 20px;
+    height: 4.5vh;
+    min-height: 29px;
 }
 
 .caption p {

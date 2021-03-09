@@ -24,7 +24,7 @@ body {
     border-width: thin;
     background-color: #ffffff;
     min-height: 555px;
-    height: 90vh;
+    /* height: 90vh; */
     /* min-width: 200px; */
     display: flex;
 
