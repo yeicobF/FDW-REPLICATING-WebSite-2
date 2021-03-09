@@ -1,6 +1,13 @@
 .icon {
     color: white;
     background-color: dodgerblue;
+    /* - https://www.w3schools.com/cssref/pr_pos_z-index.asp
+        The z-index property specifies the stack order of an element.
+    */
+    z-index: 1;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
 }
 
 .edit-icon {

@@ -46,28 +46,52 @@
     margin-bottom: 16px;
 }
 
+.right-images-container {
+    width: max-content;
+    height: max-content;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* INCLUYENDO IMAGEN Y PIE DE FOTO. */
 .right-image-and-text {
-    width: 50px;;
-    height: 70px;;
-    border: 1px solid #e6e5e5;
+    width: 50px;
+    height: 70px;
+    /* border: 1px solid #e6e5e5; */
 
     margin-right: 30px;
     /* PARA PODER UTILIZAR EL STACK INDEX */
     position: relative;
+    display: grid;
 }
 
 #img {
     width: 50px;
     height: 50px;
+    padding: 1px;
     background-color: black;
+    /* border: inherit; */
+    /* margin-top: -1px;
+    margin-left: -1px; */
 }
 
-#caption {
+.caption {
+    border: 1px solid #e6e5e5;
+
     background-color: #f8f8f8;
     color: #484948;
     font-family: 'Didact Gothic';
     font-size: small;
+    height: 20px;
+}
+
+.caption p {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #blue-bold-text {
