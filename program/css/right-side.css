@@ -71,15 +71,25 @@
     display: grid;
     grid-auto-rows: min-content;
     margin-bottom: 20px;
+    color: blueviolet;
 }
 
-#img {
+.img {
+    height: 157px;
+    width: 157px;
+
     /* ANCHO Y ALTO APLICAN LOS MISMOS */
     /* height: 176px; */
-    height: 22vh;
+    /* height: 22vh;
+    width: inherit;
     min-height: 157px;
-    max-height: 157px;;
-    background-color: black;
+    max-height: 157px; */
+    background-color: slateblue;
+    /* EN EL SVG VIENE QUE COLOR: CURRENTCOLOR, por lo que el padre definirá
+        el color del SVG.
+         */
+    /* fill: blueviolet; */
+    /* background-color: black; */
     /* width: 150px;
     height: 190px; */
     /* padding: 1px; */
@@ -88,6 +98,7 @@
     /* margin-top: -1px;
     margin-left: -1px; */
 }
+
 
 .caption {
     max-width: inherit;
@@ -116,7 +127,9 @@
 
 .caption p {
     font-family: 'Rubik';
-    font-size: small;
+    /* font-size: small; */
+    /* PARA QUE SE HUNA POQUITO COMO EN LA IMAGEN. */
+    font-size: 13.4px;
     font-weight: 500;
     /* PARA QUE NO SE PONGA EN MÁS DE UNA LÍNEAA A PESAR DE UTILIZAR FLEX */
     flex-shrink: 0;
@@ -156,13 +169,18 @@
     /* PARA QUE NO SE MUEVAN LOS PUNTOS A PESAR DE QUE SE SUPERE LA POSICIÓN
         INICIAL DEL DIV */
     position: sticky;
+    /* ME SALIÓ UN EROR:
+        'position: sticky' is not supported by Safari, iOS Safari.
+        Add 'position: -webkit-sticky' to support Safari 6.1+, iOS Safari 6.1+.
+    */
+    position: -webkit-sticky;
     right: 0px;
     padding-right: 10px;
     padding-left: 2px;
     height: 100%;
 }
 
-#blue-bold-text {
+.blue-bold-text {
     font-weight: bold;
     color: #1073ab;
 }

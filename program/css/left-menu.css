@@ -59,13 +59,13 @@
 }
 
 /* PARA PONER LA LÍNEA DEL BORDE SIN COMPLETAR EN LOS NECESARIOS. */
-#uncomplete-border--2px {
+.uncomplete-border--2px {
     border-bottom: 2px solid #e6e5e5;
     height: 2px;
     /* margin: auto; */
     /* width: 80%; */
 }
-#uncomplete-border--1px {
+.uncomplete-border--1px {
     border-bottom: 1px solid #e6e5e5;
     height: 1px;
     /* margin: auto; */
