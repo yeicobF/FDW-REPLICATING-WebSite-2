@@ -86,10 +86,11 @@
     /* RESPECTO AL CONTENEDOR DE LOS BOTONES. */
     position: relative;
     /* position: absolute; */
-    border-radius: 1px;
+    border-radius: 2px;
     /* border: transparent; */
     /* background-color: transparent; */
-    border: green solid 1px;
+    /* border: green solid 1px; */
+    border: transparent 0px;
     background-color: transparent;
     /* z-index: 1; */
     margin-left: 4.5px;
