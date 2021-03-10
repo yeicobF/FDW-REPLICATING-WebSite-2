@@ -5,6 +5,7 @@
     max-width: 175px;
     width: 21%;
     border-right: 2px solid #e6e5e5;
+    /* border-right: 2px solid #e6e5e5; */
     background-color: #f8f8f8;
     /* height: 50px; */
     padding-top: 0px;
@@ -36,6 +37,7 @@
 
 .left-menu__items {
     height: 50px;
+    /* color: #444544; */
     color: #9b9b9c;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -60,13 +62,15 @@
 
 /* PARA PONER LA LÍNEA DEL BORDE SIN COMPLETAR EN LOS NECESARIOS. */
 .uncomplete-border--2px {
-    border-bottom: 2px solid #e6e5e5;
+    border-bottom: 2px solid #e8e9ea;
+    /* border-bottom: 2px solid #e6e5e5; */
     height: 2px;
     /* margin: auto; */
     /* width: 80%; */
 }
 .uncomplete-border--1px {
-    border-bottom: 1px solid #e6e5e5;
+    border-bottom: 1px solid #e0e0e0;
+    /* border-bottom: 1px solid #e6e5e5; */
     height: 1px;
     /* margin: auto; */
     /* width: 80%; */
@@ -140,7 +144,7 @@
     .right-centered-border {
         /* Lo siento por utilizarlo, profe. No encontré otra forma de modificar
             el margen. */
-        margin-bottom: 36px !important;
+        margin-bottom: 35px !important;
     }
 }
 

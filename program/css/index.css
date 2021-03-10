@@ -20,6 +20,7 @@ body {
 
 .content-container {
     border: #d6d8dc;
+    /* border: #d6d8dc; */
     border-style: solid;
     border-width: thin;
     background-color: #ffffff;

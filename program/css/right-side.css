@@ -11,7 +11,7 @@
 }
 
 .upper-text {
-    color: #464746;
+    /* color: #464746; */
     font-family: 'Rubik';
     height: 80px;
     margin-top: 12px;
@@ -19,12 +19,14 @@
 }
 
 .upper-text h1 {
+    color: #444544;
     margin-bottom: 10px;
     font-size: larger;
 }
 
 .upper-text p {
     display: inline;
+    color: #585958;
 }
 
 /* PARA QUE NO SE SUBRAYE EL HIPERVÍNCULO */
@@ -41,9 +43,10 @@
     /* margin-right: 25px; */
     /* margin-top: -23vh; */
     height: 0px;
-    border-top: 1px solid #e6e5e5;
+    border-top: 2px solid #f1f1f1;
+    /* border-top: 1px solid #e6e5e5; */
 
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 
 .right-images-container {
@@ -141,6 +144,7 @@
 
     background-color: #f8f8f8;
     color: #484948;
+    /* color: #484948; */
     font-family: 'Didact Gothic';
     font-size: small;
     height: 4.5vh;
@@ -186,7 +190,8 @@
 
 /* BOTÓN DE 3 PUNTOS. */
 .dots {
-    color: #1073ab;
+    color: #4694bf;
+    /* color: #1073ab; */
     float: left;
     /* align-items: flex-end; */
     /* PARA MANDARLO HASTA LA DERECHA */
@@ -214,6 +219,7 @@
 .blue-bold-text {
     font-weight: bold;
     color: #1073ab;
+    /* color: #1073ab; */
 }
 
 /* AJUSTAR EL CONTENIDO A LA PANTALLA SI ES MENOR A 800px. */
