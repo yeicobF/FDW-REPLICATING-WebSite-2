@@ -113,7 +113,8 @@
     width: inherit;
     min-height: 157px;
     max-height: 157px; */
-    background-color: slateblue;
+    background-color: #f8f8f8;
+    /* background-color: slateblue; */
     /* EN EL SVG VIENE QUE COLOR: CURRENTCOLOR, por lo que el padre definirá
         el color del SVG.
          */
@@ -136,13 +137,16 @@
 
 .caption {
     max-width: inherit;
-    border: 1px solid #e6e5e5;
+    border: 1px solid #e9e9e9;
+    /* border: 1px solid #e7e7e6; */
+    /* border: 1px solid #e6e5e5; */
 
     padding-left: 10px;
     margin-top: auto;
     margin-bottom: auto;
 
     background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
     color: #484948;
     /* color: #484948; */
     font-family: 'Didact Gothic';
@@ -222,16 +226,4 @@
     /* color: #1073ab; */
 }
 
-/* AJUSTAR EL CONTENIDO A LA PANTALLA SI ES MENOR A 800px. */
-@media only screen and (max-width: 955px) {
-    .right-images-container {
-        justify-content: space-evenly;
-    }
-}
 
-/* DESAJUSTAR EL COTENIDO DE LA PANTALLA SI MIDE MÁS DE 801px. */
-@media only screen and (min-width: 956px) {
-    .right-images-container {
-        justify-content: unset;
-    }
-}

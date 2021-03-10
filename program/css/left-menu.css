@@ -124,7 +124,8 @@
     padding-top: 7px;
     padding-bottom: 7px;
     /* margin-bottom: 27px; */
-    color: black;
+    color: #494949;
+    /* color: black; */
     background-color: #ffffff;
     /* width: inherit; */
     height: inherit;
@@ -132,37 +133,3 @@
     /* width: 14%; */
 
 }
-
-/* ACOMODAR LOS PRIMEROS DOS ELEMENTOS DE LA LISTA, YA QUE DEBIDO A QUE NO
-    TIENEN BORDER SUPERIORES NI INFERIOR EL PRIMER ELEMENTO, NO SE PUEDEN
-    CENTRAR. */
-@media only screen and (max-width: 591px) {
-    .left-menu__items--selected {
-        padding-top: 45px;
-        margin-bottom: 50px;
-    }
-    .right-centered-border {
-        /* Lo siento por utilizarlo, profe. No encontré otra forma de modificar
-            el margen. */
-        margin-bottom: 35px !important;
-    }
-}
-
-@media only screen and (min-width: 592px) and (max-width: 597px) {
-    .left-menu__items--selected {
-        padding-top: 20px;
-        margin-bottom: 16px;
-    }
-}
-
-/* REACOMODAR LOS PRIMEROS DOS ELEMENTOS
-    SI LA PANTALLA MIDE MÁS DE 598px y MENOS de 777px. */
-@media only screen and (min-width: 598px) and (max-width: 777px) {
-    .left-menu__items--selected {
-        padding-top: 3vh;
-        margin-bottom: 10px;
-    }
-}
-
-/* @media only screen and (min-width: 598px) and (max-width: 777px) {
-} */

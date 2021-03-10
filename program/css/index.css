@@ -48,3 +48,58 @@ body {
     /* display: grid; */
 }
 
+/* 
+---------------------------- MEDIA QUERIES -------------------------------------
+    - Las pongo aquí porque aquí importo todas las hojas de estilos.
+*/
+
+/* ACOMODAR LOS PRIMEROS DOS ELEMENTOS DE LA LISTA, YA QUE DEBIDO A QUE NO
+    TIENEN BORDER SUPERIORES NI INFERIOR EL PRIMER ELEMENTO, NO SE PUEDEN
+    CENTRAR. */
+@media only screen and (max-width: 591px) {
+    .left-menu__items--selected {
+        padding-top: 45px;
+        margin-bottom: 50px;
+    }
+    .right-centered-border {
+        /* AL FINAL NO NECESITÉ EL !important.
+            - Creo que lo necesitaba porque tenía esta condicipon en una hoja
+            de estilos en donde no se encontraba la clase. */
+        margin-bottom: 35px;
+        /* Lo siento por utilizarlo, profe. No encontré otra forma de modificar
+            el margen. */
+        /* margin-bottom: 35px !important; */
+    }
+}
+
+@media only screen and (min-width: 592px) and (max-width: 597px) {
+    .left-menu__items--selected {
+        padding-top: 20px;
+        margin-bottom: 16px;
+    }
+}
+
+/* REACOMODAR LOS PRIMEROS DOS ELEMENTOS
+    SI LA PANTALLA MIDE MÁS DE 598px y MENOS de 777px. */
+@media only screen and (min-width: 598px) and (max-width: 777px) {
+    .left-menu__items--selected {
+        padding-top: 3vh;
+        margin-bottom: 10px;
+    }
+}
+
+/* @media only screen and (min-width: 598px) and (max-width: 777px) {
+} */
+/* AJUSTAR EL CONTENIDO A LA PANTALLA SI ES MENOR A 800px. */
+@media only screen and (max-width: 955px) {
+    .right-images-container {
+        justify-content: space-evenly;
+    }
+}
+
+/* DESAJUSTAR EL COTENIDO DE LA PANTALLA SI MIDE MÁS DE 801px. */
+@media only screen and (min-width: 956px) {
+    .right-images-container {
+        justify-content: unset;
+    }
+}
