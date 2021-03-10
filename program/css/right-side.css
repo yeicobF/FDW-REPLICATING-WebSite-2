@@ -168,14 +168,14 @@
 }
 
 /* AJUSTAR EL CONTENIDO A LA PANTALLA SI ES MENOR A 800px. */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 955px) {
     .right-images-container {
         justify-content: space-evenly;
     }
 }
 
 /* DESAJUSTAR EL COTENIDO DE LA PANTALLA SI MIDE MÁS DE 801px. */
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 956px) {
     .right-images-container {
         justify-content: unset;
     }
