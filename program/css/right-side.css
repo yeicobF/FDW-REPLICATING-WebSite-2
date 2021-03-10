@@ -75,23 +75,26 @@
 }
 
 .img-button-container {
+    /* PARA PODER PONER LOS BOTONES ARRIBA A LA IZQUIERDA */
     position: absolute;
-    display: inline-block;
+    display: inline-flex;
     height: 29px;
+    margin-top: 5px;
 }
 
 .img__left-superior-corner-button {
+    /* RESPECTO AL CONTENEDOR DE LOS BOTONES. */
     position: relative;
     /* position: absolute; */
     border-radius: 1px;
-    border: transparent;
+    /* border: transparent; */
     /* background-color: transparent; */
-    background-color: green;
-    z-index: 1;
-    margin-left: 5px;
-    margin-top: 5px;
-    height: 29px;
-    width: 29px;
+    border: green solid 1px;
+    background-color: transparent;
+    /* z-index: 1; */
+    margin-left: 4.5px;
+    height: 27px;
+    width: 27px;
     cursor: pointer;
 }
 
