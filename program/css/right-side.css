@@ -74,10 +74,32 @@
     color: blueviolet;
 }
 
-.img {
+.img-button-container {
+    position: absolute;
+    display: inline-block;
+    height: 29px;
+}
+
+.img__left-superior-corner-button {
+    position: relative;
+    /* position: absolute; */
+    border-radius: 1px;
+    border: transparent;
+    /* background-color: transparent; */
+    background-color: green;
+    z-index: 1;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 29px;
+    width: 29px;
+    cursor: pointer;
+}
+
+
+.img-container {
     height: 157px;
     width: 157px;
-
+    position: relative;
     /* ANCHO Y ALTO APLICAN LOS MISMOS */
     /* height: 176px; */
     /* height: 22vh;
@@ -99,6 +121,11 @@
     margin-left: -1px; */
 }
 
+/* PARA LAS IMÁGENES QUE SE AGREGUEN MIDAN LO MISMO QUE EL DIV. */
+.img-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 .caption {
     max-width: inherit;
